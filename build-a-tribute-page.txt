@@ -1,0 +1,119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+  <title>Grace Murray Hopper</title>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Contraalmirante Grace Murray Hopper</h1>
+    <figure id="img-div">
+      <img id="image" src="https://www.vassar.edu/stories/2020/assets/images/grace-hopper-at-computer-lead.jpg" alt="Grace Murray Hopper" />
+      <figcaption id="img-caption">
+        Grace Hopper trabajando con una de las primeras computadoras, reflejo de su papel fundamental en el desarrollo de la programación moderna. Su visión y liderazgo técnico sentaron las bases de los lenguajes de alto nivel que usamos hoy.
+      </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h2>16 Hechos sobre Grace Murray Hopper</h2>
+      <ul>
+        <!-- tus <li> están perfectos -->
+        ...
+      </ul>
+      <div class="gallery">
+        <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/10BEB/production/_94278586_yale7.jpg.webp" alt="honores a Grace">
+        <img src="https://news.yale.edu/sites/default/files/d6_files/YaleNews_hopper-grace.UNIVAC.102635875-CC_0.jpg" alt="Grace trabajando">
+        <img src="https://www.vassar.edu/stories/2017/assets/images/170706-legacy-of-grace-hopper-hopper-militarypportrait.jpg" alt="retrato">
+      </div>
+      <p>
+        Conoce más sobre la Contraalmirante Grace Murray Hopper: 
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Grace_Hopper" target="_blank">Wikipedia - Grace Hopper</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+  background-color: #80b8b7;
+  color: #29475f;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+  padding: 20px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+ul {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+** end of undefined **
+
